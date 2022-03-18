@@ -1,0 +1,380 @@
+.type-selector,
+.fieldrow.checkboxes {
+    display: none;
+}
+.mg-calc.type-zalog .fieldrow.first-payment, .mg-calc.type-summa .fieldrow.first-payment {
+	display: none;
+}
+.mg-calc .calc-menu-mobile select, .mg-calc .ui-selectmenu-text, .ui-selectmenu-menu li {
+	font-family: 'corpid_e1s_scd_light';
+}
+.b-form .ui-selectmenu-button.ui-corner-all:before, .b-form .ui-selectmenu-button.ui-corner-top:before {
+	color: #000;    top: 21px;
+	right: 10px;
+	font: 7px 'icomoon-transcapital';
+}
+#urltimeh a {
+    width: 100%;
+    font-size: 20px!important;
+    margin: 10px;
+    line-height: 49px!important;
+    height: 50px!important;
+}
+#logo {
+    margin-top: 21px;
+    margin-bottom: 15px;
+    float: left;
+}
+#logo img {
+	height: 48px;
+}
+.headerrow .b-product_switcher {
+    float: right;
+    height: 80px;
+    margin-top: -28px;
+    width: 340px;
+}
+.b-product_promo {
+    overflow: unset;
+}
+.mg-calc .head-menu > .wrapper {
+	border-radius: 0;
+}
+.b-product_teaser {
+	background-color: #fff;
+}
+.mg-calc .head-menu {background-color:#f6f6f6;}
+.landing-wraper {text-align:center;}
+/* a.b-logo.fl {float:none;} */
+main#main, .b_mortage {background-color:#fff;}
+.b_mortage .footer, .b_mortage .body {background-color:#f6f6f6!important;}
+.mg-calc .footer {border-bottom:none;}
+.mg-calc .body .wrapper.res {margin-top: 35px;}
+#main-mortgage-calc {margin-bottom:0px;}
+#mtg-button-more {position:absolute;bottom:30px;top:auto!important;}
+.mg-calc .body > .wrapper {border-radius:0px 0px 15px 15px;}
+.wrapper {padding:0px; }
+#banner-mob-title{display:none;}
+.mg-calc h2 {display:none;}
+.mg-calc .body, .mg-calc .head-menu,.mg-calc .footer {background-color:#f6f6f6;}
+.mg-calc .body > .wrapper {box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);-webkit-box-shadow:0px 5px 15px rgba(0, 0, 0, 0.1);-moz-box-shadow:0px 5px 15px rgba(0, 0, 0, 0.1);}
+.mg-calc .top-deco {border-radius: 15px 15px 0px 0px;}
+.mg-calc .top-deco, .mg-calc .head-menu > .wrapper {-webkit-box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.1);-moz-box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.1);box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.1);background-color:#fff;}
+.top-phone{display:inline-block;vertical-align:top;padding-left:30px;background: url(/ico/ico_39.png) no-repeat left top;background-position-y:5px;text-align:left;line-height:23px;}
+.top-phone span {font-size:24px;}
+#mtg-button-more{font-size:23px;font-family:'corpid_e1s_scd_light';position:relative;top:-80px;color:#01539f;float:right;line-height:1px;text-decoration:underline;}
+#mtg-button-more:hover{color:#0067c7;}
+.mg-calc .footer .wrap-submit {text-align: center;}
+#urlvygoda {margin-top: 5px;
+    margin-left: 27px;
+    font-weight: bold;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;}
+/*Заменяющийся текст в шапке*/
+.b-product_promo_cont {padding:25px 0px;}
+.zag {width:100%;display:block;}
+.usloviya {position:relative;width:82%;margin:0 auto;font-size:20px;font-family: 'corpid_e1s_scd_light';color:#fff;/*overflow:auto;*/}
+.decision {/*margin:39px 32% 22px;*/font-size:28px!important;height:60px;line-height:58px!important;/*width:271px;*/}
+#urltime4 {
+    display: inline-block;
+    margin: 30px 36%;
+    position: relative;
+}
+#newurltime4 {
+    display: inline-block;
+    margin: 30px 36%;
+    position: relative;
+	text-align: center;
+}
+.newbtn {
+	color: #fff;
+    border: none;
+    background-color: #00b2ac;
+	font-size: 28px;
+    transition: background-color .1s ease-out;
+    border-radius: 25px;
+	padding: 10px 15px;
+    cursor: pointer;
+	text-align: center;
+	min-width: 200px;
+	margin: 0;
+	
+}
+.newbtn:hover {
+    background-color: #009591;
+}
+.newbtn:focus,
+.newbtn:active {
+    background-color: #008783;
+}
+.poumnomu  {font-size: 20px!important;}
+.usloviya_procent {display:block;float:left;width:33%;margin:20px 0;}
+.usloviya_firstinstallment {display:block;float:left;width:33%;margin:20px 0;}
+.usloviya_date {display:block;float:left;width:33%;margin:20px 0;}
+.usloviya_info {display:block;float:left;width:100%;max-height:96px;}
+
+.familyandchildren {font-size:20px;color:#fff;font-family: 'corpid_e1s_scd_light';width:100%;display:block;}
+.width2 {width:49%;}
+.text_center {text-align:center;}
+.font_large {font-size:60px;font-family: 'corpid_e1s_scd_bold';}
+.font_medium {font-size:30px;}
+.border_left {border-left:2px solid #fff;}
+.border_right {border-right:2px solid #fff;}
+.mg-calc.refinancing .fieldrow.estate-price, .mg-calc.comfort .fieldrow.estate-price {
+    top: 110px;
+}
+.b-product_teaser {padding:0px 0 50px;}
+.ico_rad_graf {width:70px;margin-right:10px;margin-bottom:8px;}
+.procent_rg {font-size:73px;font-family:corpid_e1s_scd_bold;color:#00b1ac;}
+.font_medium_footer {font-size:30px;text-transform:uppercase;line-height:34px;}
+.wrap_center {max-width:76%;margin:30px auto 0px;height:78px;}
+.f_text_block {display:block;font-size:25px;}
+.border_left_black {border-left:1px solid #000;}
+.border_right_black {border-right:1px solid #000;}
+.mdopinf {margin-top:30px;padding:0 15px;}
+.mortkursiv {font-style:italic;font-family: 'corpid_e1s_scd_light';}
+
+
+
+.mdopinf {text-align:center;}
+
+.mdopinf a {
+    color: #b5b5b5;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+    line-height: 24px;
+}
+.mdopinf a:hover {
+    color: #00a09b;
+    border-color: #00a09b;
+}
+.mg-calc .send-tip {font-size:23px;font-family: 'corpid_e1s_scd_bold';}
+.wrapper.res {display:none;}
+.landing_easy_mort_icon{color:#00b1ac;font-size:41px;height:auto;}
+#easy-percent-text{font-size:41px;display:block;position:relative;top:45px;font-weight:bold;color:#00abaa;}
+.mtg-banner-percent-big{font-size:180px;line-height:105px;}
+.mtg-banner-percent-small{font-size:95px;}
+#banner-mob-title{display:none;}
+.mg-calc .checkboxes .b-form_checkbox .txt {
+    margin-left: 17px;
+}
+.headbtn {
+    width: 100%;
+    font-size: 20px!important;
+    margin: 10px;
+    line-height: 49px!important;
+    height: 50px!important;
+}
+.mintext {
+    font-size: 13px;
+}
+.form-mini.success .success-popup .dmorange,
+.alertnew {
+	display: none!important;
+}
+.form-mini.success .success-popup .alert.landing {
+    display: block!important;
+}
+.mg-calc select + .ui-selectmenu-button.ui-widget {
+	border: 1px solid #ccc;
+}
+.mg-calc .body .fieldcell {
+	width: 100%;
+}
+.mg-calc .body .fieldcell [type="text"]{
+	width: 100%;
+}
+.mg-calc .b-form .fieldrow.children {
+	 margin-top: 35px !important;
+}
+.mg-calc .age.error .error-txt {
+	position: absolute;
+	margin-top: 25px;
+
+}
+#income-doc-menu [aria-disabled="true"] {
+	display: none;
+}
+/**/
+.b-list_accordion_h.ui-state-active {
+	border: none;
+	margin-bottom: 0;
+	border-bottom: 0!important;
+}
+.b-list_accordion_h {
+	border: none!important;
+	background: none!important;
+	margin-bottom: 0;
+}
+.b-list_accordion_h p:before {
+	content: "\2e";
+	font-family: 'icomoon-transcapital';
+	font-size: 8px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.b-list_accordion_h.ui-state-active p:before {
+	content: "\2f";
+}
+.b-list_accordion_h p:after,
+.b-list_accordion_h.ui-state-active p:after {
+	content: "";
+}
+.rkoicohfiles3 {
+	width: 25px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 16px;
+}
+#reportsAccordion2>div:nth-child(2),
+#reportsAccordion3>div:nth-child(2) {
+	background-color: unset;
+	padding: 20px;
+	width: 96%;
+	border: none;
+}
+.b-list_accordion_h .pseudo,
+.b-list_accordion_h .pseudo:hover {
+	font-family: 'corpid_e1s_scd_bold'!important;
+	font-size: 20px;
+	border-bottom: none;
+}
+.ui-accordion-content a {
+	color: #38434d;
+}
+.accordion__content {
+	padding: 20px;
+
+}
+
+@media (max-width: 1000px){
+.b-product_promo_cont {
+   left: 0px;
+   right: 0px;
+
+}
+}@media (max-width: 951px){
+	
+	.newbtn{
+		padding: 5px 10px;
+		font-size: 20px;
+	}
+}
+@media (max-width:888px) {
+	.f_text_block{
+		font-size: 20px;
+	}
+	.font_large {font-size:50px;}
+	.font_medium {font-size:20px;}
+	.usloviya_date,.usloviya_firstinstallment, .usloviya_procent{
+		font-size:20px;
+		width: 30%;
+	}
+	
+	.col-3,.col-2,.col-1{
+		padding: 0 5px;
+		
+		
+	}
+	.usloviya_info{font-size: 20;}
+	body{margin: 15px;}
+		
+	.landing_easy_mort_icon {font-size:35px;}
+	
+	.btn.green {font-size:20px;}
+}
+
+	
+
+@media (max-width:696px) {
+	.f_text_block{
+		font-size: 15px;
+		
+	}
+	#newurltime4 {
+		margin: 30px 35%;
+		
+	}
+	.newbtn{
+		padding: 5px 10px;
+		font-size: 15px;
+	}
+	.font_large {font-size:30px;}
+	.font_medium {font-size:15px;}
+	.landing_easy_mort_icon {font-size:30px;}
+	.usloviya_date,.usloviya_firstinstallment, .usloviya_procent{
+		font-size:15px;
+		margin: 20px 0;
+		width: 30%;
+	}
+	.btn.green {font-size:15px;}
+	.usloviya_info{font-size: 15;}
+}
+
+@media (max-width:581px) {
+	.f_text_block{
+		font-size: 12px;
+	}
+	.font_medium_footer{
+		font-size: 20px;
+	}
+	.wrap_center {
+		max-width: 100%;
+		
+	}
+	#newurltime4 {
+		margin: 30px 30%;
+		
+	}
+	
+	.landing_easy_mort_icon {font-size:25px;}
+	.font_large {font-size:20px;}
+	.font_medium {font-size:12px;}
+	.usloviya_info{font-size: 12px;}
+	.usloviya_date,.usloviya_firstinstallment, .usloviya_procent{
+		font-size:10px;
+		margin: 10px 0;
+		width: 30%;
+	}
+	
+	
+	
+}
+@media (max-width: 519px){
+	
+	.newbtn{
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	#newurltime4 {
+		margin: 30px 25%;
+		
+	}
+}
+
+@media (max-width:509px) {
+	.f_text_block{
+		font-size: 10px;
+	}
+	.font_medium_footer{
+		font-size: 20px;
+	}
+	.landing_easy_mort_icon {font-size:20px;}
+	.font_large {font-size:20px;}
+	.font_medium {font-size:10px;}
+	.usloviya_date,.usloviya_firstinstallment, .usloviya_procent{
+		font-size:10px;
+		margin: 2px 0;
+		width: 30%;
+	}
+	.usloviya_info{font-size: 10;}
+	.b-product_promo_cont {padding:5px 0px;}
+}
+@media (max-width: 360px){
+	
+	#newurltime4 {
+		margin: 30px 18%;
+		
+	}
+}

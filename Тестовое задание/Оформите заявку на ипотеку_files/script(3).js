@@ -1,0 +1,4 @@
+/*
+    oip.cMortgageCalc.calc = function(){};
+
+})*/
