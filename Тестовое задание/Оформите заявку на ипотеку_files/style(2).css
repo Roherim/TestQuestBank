@@ -377,4 +377,15 @@ main#main, .b_mortage {background-color:#fff;}
 		margin: 30px 18%;
 		
 	}
+	.f_text_block{
+		font-size: 8px;;
+	}
+	.wrap_center {
+		max-width: 76%;
+		margin: 30px auto 0px;
+		height: 60px;
+	}
+	.ico_rad_graf{
+		max-width: 50px;;
+	}
 }

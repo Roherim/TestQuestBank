@@ -866,21 +866,42 @@ $('body').on( 'change', 'form', function() {
 					</div>
 				</div>
                     <div class="mdopinf">
+                        
                         <div class="reportsAccordion">
-                            <div   class="b-list_accordion_h"><p><span id="mortgageDocs" class="pseudo">Подробные условия</span></p></div>
-                            <div class="reporting-open">     
-                                <p><a href="https://www.tkbbank.ru//documents/mort_easy.pdf/">Подробные условия программы Приобретение жилья</a><br>
-                                <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-refinansirovanie-0717/">Подробные условия программы Рефинансирование</a><br>
-                                <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-programmy-kredit-udobnyy/">Подробные условия программы Кредит под залог</a><br>
-                                 <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-programmy-polzunki/">Подробные условия программы «Ипотека в ползунках»</a><br/>
-                                 <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-programmy-ipoteka-ot-5-34-godovykh/">Подробные условия программы "Ипотека от 5,34% годовых"</a><br/>
-                                <a href="https://www.tkbbank.ru//documents/programma-mashinomesto-i-kladovoe-pomeshchenie/">Подробные условия программы "Машиноместо в ипотеку"</a></p>
-                            </div>
+                            <ul class="accordion1" data-accordion="open">
+                                <li><div   class="b-list_accordion_h"><p><span id="mortgageDocs" class="pseudo">Подробные условия</span></p></div>
+                                <div class="reporting-open">     
+                                    <p><a href="https://www.tkbbank.ru//documents/mort_easy.pdf/">Подробные условия программы Приобретение жилья</a><br>
+                                    <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-refinansirovanie-0717/">Подробные условия программы Рефинансирование</a><br>
+                                    <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-programmy-kredit-udobnyy/">Подробные условия программы Кредит под залог</a><br>
+                                     <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-programmy-polzunki/">Подробные условия программы «Ипотека в ползунках»</a><br/>
+                                     <a href="https://www.tkbbank.ru//documents/podrobnye-usloviya-programmy-ipoteka-ot-5-34-godovykh/">Подробные условия программы "Ипотека от 5,34% годовых"</a><br/>
+                                    <a href="https://www.tkbbank.ru//documents/programma-mashinomesto-i-kladovoe-pomeshchenie/">Подробные условия программы "Машиноместо в ипотеку"</a></p>
+                                </div></li>
+                            </ul>
+                            
+                            
                         </div>
                         <script>
-                            jQuery(document).ready(function($){
-                            $('.reportsAccordion').accordion();
+                           let accordion=function(){
+                            let data=$('.b-list_accordion_h').on('click', function(){
+                                if(data==="close"){ 
+                                    $('.reporting-open').slideUp();
+                                    if($(this).hasClass("active")){
+                                        $(this).toggleClass("active")
+                                    }
+                                    else{
+                                        $(".b-list_accordion_h").removeClass("acrive")
+                                        $(this).toggleClass("active")
+                                    }
+                                }
+                                else{
+                                    $(this).toggleClass("active");
+                                }
+                                $(this).next(".reporting-open").not(":animated").slideToggle();
                             });
+                           }
+                           accordion();
                         </script>
                             </div>
                         </div>
